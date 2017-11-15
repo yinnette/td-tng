@@ -1,0 +1,33 @@
+//Global
+
+body {
+	background-color: $lighter-gray;
+}
+a {
+	font-weight: 300;
+	color: $sky;
+}
+select.form-control {
+	@include appearance-none;
+	border:0; 
+	background-image: url('../img/td-icon-select.svg');
+	background-repeat: no-repeat;
+	background-position: right center;
+	padding-right: 30px;
+	color: $gray;
+	padding-left:0;
+}
+.badge {
+	background: $dark-gray; 
+	border-radius: 20px;
+	padding: 5px 10px;
+	font-weight: 200; 
+	font-size: 14px;
+}
+
+//grid
+@media (min-width: 1200px) {
+	.container {
+	    max-width: 1366px;
+	}
+}

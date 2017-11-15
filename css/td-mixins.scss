@@ -1,0 +1,21 @@
+//Global Mixins
+@mixin box-shadow(){
+	$box-shadow: 1px 3px 3px rgba(0,0,0,0.05);
+	-webkit-box-shadow: $box-shadow;
+	-moz-box-shadow: $box-shadow;
+	-o-box-shadow: $box-shadow;
+	box-shadow: $box-shadow;
+}
+@mixin gradient-bar(){
+	$rotate: 114deg; 
+	background: $blue; 
+	background: -moz-linear-gradient($rotate, $blue 22%, $planet 22%, $sky 100%);
+	background: -webkit-linear-gradient($rotate, $blue 22%,$planet 22%,$sky 100%); 
+	background: linear-gradient($rotate, $blue 22%,$planet 22%,$sky 100%); 
+}
+@mixin appearance-none(){
+	-webkit-appearance:none!important;
+	-moz-appearance:none!important;
+	appearance:none!important;
+	apple-appearance: none!important;
+}

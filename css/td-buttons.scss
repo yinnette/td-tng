@@ -1,0 +1,51 @@
+.btn {
+	-webkit-border-radius: 0; 
+	-moz-border-radius:0; 
+	border-radius: 0; 
+	border:0; 
+}
+.btn-success {
+	background-color: $green;
+	color: white;
+}
+.btn-primary {
+	background-color: $sky;
+	&:hover {
+		background-color: darken($sky, 5%);
+	}
+}
+.btn-large {
+	border-radius: 2px;
+	padding: 12px 20px;
+}
+.td-btn-slant {
+	position: relative;
+	&:hover {
+		background-color: $sky; 
+		color: white;
+		&:after {
+			border-color: $sky transparent transparent transparent;
+		}
+		&:before {
+			border-color: transparent transparent $sky transparent;
+		}	
+	}
+	&:before, &:after {
+		content: '';
+		width: 0;
+		height: 0;
+		border-style: solid;
+		position:absolute;
+		top: 0;
+	}
+	&:after {
+		right: -6px;
+		border-width: 44px 6px 0 6px;
+		border-color: $green transparent transparent transparent;
+	}
+	&:before {
+		left: -6px;
+		border-width: 0 6px 44px 6px;
+		border-color: transparent transparent $green transparent;
+	}
+}

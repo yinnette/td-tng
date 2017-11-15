@@ -1,0 +1,27 @@
+.td-search {
+	display:inline-block;
+	width: 100%;
+}
+.td-search-main {
+	$border: 	2px solid $lighter-gray;
+	border-bottom: $border;
+	padding: 0 0 4px 0;
+	.td-search-dropdown, .td-search-input, .td-search-btn {
+		border-radius:0; 
+		border: 0; 
+	} 
+	.td-search-dropdown {
+		width: 230px;
+		padding-left:0;
+	}
+	.td-search-input {
+		border-left: $border;
+		width: calc(100% - 230px);
+	}
+	.td-search-btn {
+		background:none;
+		img {
+			width: 20px;
+		}
+	}
+}

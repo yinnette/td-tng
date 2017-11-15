@@ -1,0 +1,36 @@
+// Variables
+//fonts 
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900');
+$td-font: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+
+// Images
+$td-logo: 	url('https://shop.techdata.com/Content/base/shopImages/Tech-Data.png');
+
+//Primary Colors
+$space: 	#1F2A44;
+$ocean: 	#00558C;
+$sky: 		#4EC3E0;
+$planet:	#C4D600;
+
+//Secondary Colors
+$navy: 			$space;
+$blue: 			$ocean;
+$cyan: 			$sky;
+$applegreen:	$planet;
+$yellow: 		#EEDC00;
+$orange: 		#FFB81C;	
+$coral:			#E04E39;
+$pink: 			#AC145A;
+$green: 		#8AD255;
+
+//Gray Colors
+$darker-gray: 	#111;
+$dark-gray:		#53565A;
+$gray:			#97999B;
+$light-gray: 	#D9D9D6; 
+$lighter-gray:	#f0f3f6; 
+$white:			#fff;
+
+
+//TD Global
+$td-padding: 		20px;
